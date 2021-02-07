@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Navbar, NavbarBrand, Nav, NavItem, NavLink} from 'reactstrap';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './Pages/About';
 import Resume from './Pages/Resume';
 
@@ -9,10 +9,10 @@ function App() {
   return (
     <Router>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">William Avery</NavbarBrand>
+        <NavbarBrand href="#/">William Avery</NavbarBrand>
         <Nav className="mr-auto" navbar>
           <NavItem>
-            <NavLink href="/resume">Resume</NavLink>
+            <NavLink href="#/resume">Resume</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="https://github.com/WAvery4">GitHub</NavLink>
