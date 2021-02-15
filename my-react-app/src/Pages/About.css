@@ -1,20 +1,20 @@
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    min-height: 85vh;
+.containerAb {
+    min-height: 80vh;
 }
 
 .portrait {
-    margin-top: 10%;
+    display: block;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
-    width: 450px;
-    height: 600px;
+    height: 60vh;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    max-width: 80vw;
 }
